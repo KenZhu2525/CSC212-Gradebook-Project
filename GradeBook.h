@@ -1,10 +1,20 @@
+#pragma once
+#include <iostream>
 #include <vector>
-#include <string>
+using namespace std;
 
 class GradeBook {
 private:
-    std::vector<std::string> GradeTypes;
-    std::vector<int> Grades;
+    // variables used in GradeBook
+    double lab_grade;
+    double hw_grade;
+    double exam_grade;
+    double project_grade;
+    double review_grade;
+    vector<double> lab_grades_vector;
+    vector<double> hw_grades_vector;
+
 public:
-    Gradebook();
+    // GradeBook Contructor
+    GradeBook();
 };
