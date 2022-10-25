@@ -1,3 +1,29 @@
+Group members:
+- Ken Zhu
+- Emily Hogan
+- Matthew 
+- Liam Dowden
+
+Github Repo Address:
+
+Summary:
+Create a working gradebook for the CSC212 Fall class that can output a final semester grade. 
+
+Psudocode:
+
+
+Describe features of the algorithm:
+
+
+How to compile algorithm:
+
+
+Walkthrough:
+
+
+Datasets:
+
+
 # CSC212-Gradebook-Project
 
 The gradebook will do the following things
@@ -17,3 +43,4 @@ Function to calculate final grades
   Spit out a letter grade based on the grading scheme. (this varies between class, e.g. some math classes has a C- grade for 60%)
   
   This program can only calculate grades for 1 class at a time.
+  
