@@ -5,7 +5,7 @@
 | Ken Zhu       | Member  |
 | Emily Hogan   | Member  |
 | Liam Dowen    | Member  |
-| Matthew Gomez | Member  |
+| Matthew ?     | Pending Invite  |
 
 
 
@@ -102,12 +102,12 @@ SAMPLE DATASETS:
 Your final grade is an A with a numeric grade of 104.
 ```
 
-##### WORK LOG:
+### WORK LOG:
 Ken, Emily, and Liam met 10/25 and worked together on building the framework for the program for 2 hours.
 Emily debugged program for 2 hours on 10/26. (Fixed class constructor, fixed grade calculation equation, made program compilable, worked on ReadMe file)
 
 
->Initial plan of the program
+**Initial plan of the program**
 
 A input prompt in the command line
 Sample text: "Input the name of the grade type, to stop the program, type End" <-- A while loop that keeps going until the user types "End"
