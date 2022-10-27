@@ -38,7 +38,11 @@ void final_grade (double lab_avg, double hw_avg, double project_grade, double ex
     int final_grade = (lab_avg * 0.05) + (hw_avg * 0.5) + (project_grade * 0.35) + (exam_grade * 0.1) + (review_grade * 0.04);
 
     // letter grade output
-    if(final_grade >= 94){
+    if(final_grade > 104 || final_grade < 0){
+        cout << ERROR: Calculated Final Grade is invalid. Check your inputs. << endl;
+        return 0;
+    }
+    else if(final_grade >= 94){
         cout << "Your final grade is an A";
     }
     else if (final_grade >= 90){
