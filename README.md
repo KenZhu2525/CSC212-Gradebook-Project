@@ -5,7 +5,7 @@
 | Ken Zhu       | Member  |
 | Emily Hogan   | Member  |
 | Liam Dowen    | Member  |
-| Matthew ?     | Pending Invite  |
+| Matthew Gomez | Member  |
 
 
 
