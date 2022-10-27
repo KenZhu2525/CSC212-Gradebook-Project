@@ -101,7 +101,7 @@ Your final grade is an A with a numeric grade of 104.
 ## Video Guide
 Thanks to Matthew Gomez for recording the video guide: [Click Here](**YouTube link here**) <-- Github markdown syntax for hyperlink
 
-### WORK LOG:
+## WORK LOG:
 Ken, Emily, and Liam met 10/25 and worked together on building the framework for the program for 2 hours.
 Emily debugged program for 2 hours on 10/26. (Fixed class constructor, fixed grade calculation equation, made program compilable, worked on ReadMe file)
 
