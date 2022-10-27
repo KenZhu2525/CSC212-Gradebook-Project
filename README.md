@@ -1,11 +1,11 @@
 GROUP MEMBERS:
 - Ken Zhu
 - Emily Hogan
-- Matthew  ////////////////// add last name ///////////
+- Matthew  ///// add last name /////
 - Liam Dowden
 
 
-GITHUB REPO ADDRESS: ///////// add repo address /////////
+GITHUB REPO ADDRESS: ////// add repo address //////
 
 
 SUMMARY:
@@ -13,15 +13,16 @@ Create a working gradebook for the CSC212 Fall class that can output a final sem
 ////// add more //////
 
 PSUDOCODE:
-////////// add on //////
+///// add on //////
+
 main:
 //take in grade inputs
-while there are less than 10 grades
-    take lab grade input
-    add to vector of lab grades
-while there are less than 5 grades
-    take hw grade input
-    add to vector of hw grades
+while there are less than 10 grades:
+    - take lab grade input
+    - add to vector of lab grades
+while there are less than 5 grades:
+    - take hw grade input
+    - add to vector of hw grades
 take final exam grade input
 take term project grade input
 take MEC grade input
@@ -29,12 +30,12 @@ call gradebook constructor
 
 gradebook.ccp:
 //calculate lab average
-for each grade in lab grade vector
-    add to sum
+for each grade in lab grade vector:
+    - add to sum
 calculate average lab grade
 //calculate hw average
-for each grade in hw grade vector
-    add to sum
+for each grade in hw grade vector:
+    - add to sum
 calculate average hw grade
 //calculate final grade
 multiply grades by their weights and add to find final numeric grade
@@ -61,7 +62,7 @@ Then will ask the user to input their MEC grade.
 The program will then compile.
 
 WALKTHROUGH:
-/////// make walkthrough //////
+///// make walkthrough /////
 
 
 DATASETS:
