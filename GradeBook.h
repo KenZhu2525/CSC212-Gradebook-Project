@@ -1,20 +1,23 @@
+// class declaration
+
 #pragma once
 #include <iostream>
 #include <vector>
 using namespace std;
 
-class GradeBook {
-private:
-    // variables used in GradeBook
-    double lab_grade;
-    double hw_grade;
-    double exam_grade;
-    double project_grade;
-    double review_grade;
-    vector<double> lab_grades_vector;
-    vector<double> hw_grades_vector;
+// function declarations
+class Gradebook {
 
-public:
-    // GradeBook Contructor
-    GradeBook();
+    private:
+        // variables used in Gradebook
+        double exam_grade;
+        double project_grade;
+        double review_grade;
+        vector<double> lab_grades_vector;
+        vector<double> hw_grades_vector;
+
+    public:
+        // Gradebook Contructor
+        Gradebook(double exam_grade, double project_grade, double review_grade, vector<double> lab_grades_vector, vector<double> hw_grades_vector);
+
 };
