@@ -39,7 +39,7 @@ void final_grade (double lab_avg, double hw_avg, double project_grade, double ex
 
     // letter grade output
     if(final_grade > 104 || final_grade < 0){
-        cout << ERROR: Calculated Final Grade is invalid. Check your inputs. << endl;
+        cout << "ERROR: Calculated Final Grade is invalid. Check your inputs." << endl;
         return 0;
     }
     else if(final_grade >= 94){
