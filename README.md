@@ -66,10 +66,6 @@ Then will ask the user to input their term project grade.
 Then will ask the user to input their MEC grade.
 The program will then compile.
 
-
-
-Video Guide: [Click Here](**YouTube link here**) <-- Github markdown syntax for hyperlink
-
 SAMPLE DATASETS:
 
 >Lab Grades
@@ -101,6 +97,9 @@ SAMPLE DATASETS:
 ```
 Your final grade is an A with a numeric grade of 104.
 ```
+
+## Video Guide
+Thanks to Matthew Gomez for recording the video guide: [Click Here](**YouTube link here**) <-- Github markdown syntax for hyperlink
 
 ### WORK LOG:
 Ken, Emily, and Liam met 10/25 and worked together on building the framework for the program for 2 hours.
