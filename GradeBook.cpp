@@ -49,28 +49,28 @@ void final_grade (double lab_avg, double hw_avg, double project_grade, double ex
         cout << "Your final grade is an A-";
     }
     else if (final_grade >= 87){
-        cout << "Your final grade is an B+";
+        cout << "Your final grade is a B+";
     }
     else if (final_grade >= 83){
-        cout << "Your final grade is an B";
+        cout << "Your final grade is a B";
     }
     else if (final_grade >= 80){
-        cout << "Your final grade is an B-";
+        cout << "Your final grade is a B-";
     }
     else if (final_grade >= 77){
-        cout << "Your final grade is an C+";
+        cout << "Your final grade is a C+";
     }
     else if (final_grade >= 73){
-        cout << "Your final grade is an C";
+        cout << "Your final grade is a C";
     }
     else if (final_grade >= 70){
-        cout << "Your final grade is an C-";
+        cout << "Your final grade is a C-";
     }
     else if (final_grade >= 67){
-        cout << "Your final grade is an D+";
+        cout << "Your final grade is a D+";
     }
     else if (final_grade >= 60){
-        cout << "Your final grade is an D";
+        cout << "Your final grade is a D";
     }
     else if (final_grade > 0){
         cout << "Your final grade is an F";
