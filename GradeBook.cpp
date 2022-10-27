@@ -1,66 +1,43 @@
+// implementation of all methods defined in Gradebook.h
+
 #include "GradeBook.h"
 #include <iostream>
 #include <vector>
+using namespace std;
 
-//declare function
-void GradeBook::finalGrade(double lab_sum, double hw_sum, double project_grade, double_exam_grade, double review_grade){
+// declare functions
+void final_grade(double lab_avg, double hw_avg, double project_grade, double exam_grade, double review_grade);
 
-GradeBook::GradeBook(){
+// main gradebook function
+Gradebook::Gradebook(double exam_grade, double project_grade, double review_grade, vector<double> lab_grades_vector, vector<double> hw_grades_vector){
 
-    // enter lab grades
-    cout << "Enter 10 lab grades, each out of 100 points: " << endl;
-    // lab grades entered in a while loop
-    int n = 0;
-    while (n < 10){
-        cin >> lab_grade;
-        // push grades to vector
-        this->lab_grades_vector();
-        n++;
-    }
-    //find lab grade sum
-    lab_sum = 0;
-    for(int i = 0; i++; i <10){
+    // find lab grade sum
+    double lab_sum = 0;
+    for(int i = 0; i < 10; i++){
         lab_sum += lab_grades_vector[i];
     }
+    // find lab average
+    double lab_avg = lab_sum / 10;
 
-    // enter programming assignment grades
-    cout << "Enter 5 programming assignment grades, each out of 100 points: " << endl;
-    // programming assignment grades entered in a while loop
-    int m = 0;
-    while (m < 5){
-        cin >> hw_grade;
-        // push grades to vector
-        this->hw_grades_vector();
-        m++;
-    }
-    //find programming assignment sum
-    hw_sum = 0;
-    for(int i = 0; i++; i < 5){
+    // find programming assignment sum
+    double hw_sum = 0;
+    for(int i = 0; i < 5; i++){
         hw_sum += hw_grades_vector[i];
     }
+    // find programming assignment average
+    double hw_avg = hw_sum / 5;
 
-    // enter term project grade
-    cout << "Enter term project grade out of 100 points: " << endl;
-    cin >> project_grade;
-
-    // enter final exam grade
-    cout << "Enter final exam grade out of 100 points: " << endl;
-    cin >> exam_grade;
-
-    // enter MEC review project grade
-    cout << "Enter review project grade out of 100 points: " << endl;
-    cin >> review_grade;
-
-    finalGrade(double lab_sum, double hw_sum, double project_grade, double_exam_grade, double review_grade);
+    // output final grade
+    final_grade (lab_avg, hw_avg, project_grade, exam_grade, review_grade);
 }
 
 // calculate the final grade
-void GradeBook::finalGrade(double lab_sum, double hw_sum, double project_grade, double_exam_grade, double review_grade){
+void final_grade (double lab_avg, double hw_avg, double project_grade, double exam_grade, double review_grade){
 
-    //calculation
-    int final_grade = (lab_sum * 0.05) + (hw_sum * 0.50) + (project_grade * 0.35) + (exam_grade * 0.10) + (review_grade * 0.03)
+    // grade calculation
+    int final_grade = (lab_avg * 0.05) + (hw_avg * 0.5) + (project_grade * 0.35) + (exam_grade * 0.1) + (review_grade * 0.04);
 
-    //letter grade output
+    // letter grade output
     if(final_grade >= 94){
         cout << "Your final grade is an A";
     }
@@ -79,7 +56,7 @@ void GradeBook::finalGrade(double lab_sum, double hw_sum, double project_grade, 
     else if (final_grade <= 79 && final_grade >= 77){
         cout << "Your final grade is an C+";
     }
-    else if (final_grade <= 76 && final_grade <= 73){
+    else if (final_grade <= 76 && final_grade >= 73){
         cout << "Your final grade is an C";
     }
     else if (final_grade <= 72 && final_grade >= 70){
@@ -95,7 +72,7 @@ void GradeBook::finalGrade(double lab_sum, double hw_sum, double project_grade, 
         cout << "Your final grade is an F";
     }
 
-    //numeric grade output
+    // numeric grade output
     cout << " with a numeric grade of " << final_grade << endl;
 
 }
