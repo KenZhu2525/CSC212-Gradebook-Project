@@ -6,7 +6,7 @@
 using namespace std;
 
 // function declarations
-class GradeBook {
+class Gradebook {
 
     private:
         // variables used in Gradebook
