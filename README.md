@@ -59,11 +59,11 @@ This algorithm takes in every grade of the course and outputs a final grade.
 
 >HOW TO COMPILE ALGORITHM:
 
-Program will ask the user to input 10 lab grades, each out of 100 points.
-Then will ask the user to input 5 hw grades, each out of 100 points.
-Then will ask the user to input their final exam grade.
-Then will ask the user to input their term project grade.
-Then will ask the user to input their MEC grade.
+Program will ask the user to input **STRICTLY** 10 lab grades, each out of 100 points. **DO NOT TYPE ANY FLOAT VALUE GREATER THAN 100 AND LESS THAN 0**
+Then will ask the user to input **STRICTLY** 5 hw grades, each out of 100 points. **DO NOT TYPE ANY FLOAT VALUE GREATER THAN 100 AND LESS THAN 0**
+Then will ask the user to input **ONLY 1** for their final exam grade. **DO NOT TYPE ANY FLOAT VALUE GREATER THAN 100 AND LESS THAN 0**
+Then will ask the user to input **ONLY 1** fortheir term project grade. **DO NOT TYPE ANY FLOAT VALUE GREATER THAN 100 AND LESS THAN 0**
+Then will ask the user to input **ONLY 1** fortheir MEC grade. **DO NOT TYPE ANY FLOAT VALUE GREATER THAN 100 AND LESS THAN 0**
 The program will then compile.
 
 SAMPLE DATASETS:
