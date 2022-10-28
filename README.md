@@ -104,7 +104,7 @@ Your final grade is an A with a numeric grade of 104.
 ```
 
 ## Video Guide
-Thanks to Matthew Gomez for recording the video guide: [Click Here](**YouTube link here**) <-- Github markdown syntax for hyperlink
+Thanks to Matthew Gomez for recording the video guide: [Click Here](https://www.youtube.com/watch?v=2R7egEZcru4&ab_channel=kiiriatsuki)
 
 ## WORK LOG:
 Ken, Emily, and Liam met 10/25 and worked together on building the framework for the program for 2 hours.
